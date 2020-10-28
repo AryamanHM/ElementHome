@@ -1,0 +1,141 @@
+body {
+	background: rgba(24, 21, 21, 0.54);
+}
+
+
+
+h1 {
+	color: #fff;
+	text-align: center;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1));
+	padding: 20px 20px;
+	font-size: 40px;
+}
+
+
+
+h3 {
+	color: #f2d70c;
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1));
+	padding: 10px 10px;
+	text-align: left;
+	font-size: 30px;
+}
+
+
+input[type=text] , select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+input[type=submit] {
+  width: 10%;
+  background-color: #545452;
+  color: silver;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+input[type=submit]:hover {
+  background-color: #333331;
+}
+
+div {
+  border-radius: 5px;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+  padding: 20px;
+  font-size: 22px;
+}
+
+
+
+table {
+	background: #c1c1c1;
+	border-collapse: collapse;
+	width: 100%;
+	color: #d96459;
+	font-family: monospace;
+	font-size: 25px !important;
+	text-align: left;
+}
+
+
+th {
+	background-color: #d96459;
+	color: white;
+	font-size: 30px !important;
+	padding: 15px 15px !important;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2}
+
+
+
+
+
+input.MyButton {
+width: 200px;
+padding: 10px;
+cursor: pointer;
+font-weight: bold;
+font-size: 150%;
+background: #3366cc;
+color: #fff;
+border: 1px solid #3366cc;
+border-radius: 10px;
+-moz-box-shadow:: 6px 6px 5px #999;
+-webkit-box-shadow:: 6px 6px 5px #999;
+box-shadow:: 6px 6px 5px #999;
+}
+input.MyButton:hover {
+color: #ffff00;
+background: #000;
+border: 1px solid #fff;
+}
+.align {
+	text-align: center;
+}
+
+
+
+
+
+h4 {
+	color: #f2d70c;
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1));
+	padding: 30px 10px;
+	text-align: left;
+	font-size: 25px;
+}
+
+
+
+div button{
+    display:inline-block;
+}
+
+
+
+.float-right {
+	text-align: right;
+}
+
+
+a:link { COLOR: #F88B1E; TEXT-DECORATION: underline; font-weight: normal }
+a:visited { COLOR: #F88B1E; TEXT-DECORATION: underline; font-weight: normal }
+a:active { COLOR: #F88B1E; TEXT-DECORATION: underline }
+a:hover { COLOR: #CD1EF8; TEXT-DECORATION: underline; font-weight: none }
+
+
+
+

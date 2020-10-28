@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	width: 1170px;
+	margin: auto;
+}
+
+header{
+	background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("WhatsApp Image 2020-09-12 at 12.04.04 PM (1).jpeg");
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+
+
+.logo img{
+	width: 200px;
+	height: auto;
+	float: left;
+	position: absolute;
+}
+
+.welcome-text {
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 20% 30%;
+	text-align: center;
+}
+
+.welcome-text h1{
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+
+.welcome-text a{
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+	color: #fff;
+}
+
+.welcome-text a:hover{
+	background: #fff;
+	color: #333;
+}
+
+.nav-area {
+  list-style-type: none;
+  margin: 20px;
+  padding: 11px;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.nav-area li {
+  float: right;
+}
+
+.nav-area li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.nav-area li a:hover {
+  background-color: #43403c;
+}
+
+
